@@ -81,4 +81,4 @@ Replace the alert() display method with a dedicated output section below the but
 Add error handling for division by zero or invalid input.
 Extend the functionality to include advanced mathematical operations (e.g., square root, power).
 Make the calculator responsive for mobile devices using CSS media queries.
-This project is a simple yet powerful demonstration of creating an interactive web-based calculator using basic web development technologies. It is ideal for beginners learning how to integrate HTML, CSS, and JavaScript. Let me know if you'd like to enhance or modify any part of the project! 😊​
+This project is a simple yet powerful demonstration of creating an interactive web-based calculator using basic web development technologies. It is ideal for beginners learning how to integrate HTML, CSS, and JavaScript.😊​
