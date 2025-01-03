@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" type="text/css" href="calculator.css">
+        <script>
+            function sum() {
+                let a = parseFloat(document.getElementById('a1').value);
+                let b = parseFloat(document.getElementById('a2').value);
+                let sum = alert(a + b);
+                
+            }
+            function subtract() {
+                let a = parseFloat(document.getElementById('a1').value);
+                let b = parseFloat(document.getElementById('a2').value);
+                let subtract = alert(a-b);                
+            }
+            function multiply() {
+               let a = parseFloat(document.getElementById('a1').value);
+               let b = parseFloat(document.getElementById('a2').value);
+               let multiply = alert(a*b);                
+            }
+            function division() {
+                let a = parseFloat(document.getElementById('a1').value);
+                let b = parseFloat(document.getElementById('a2').value);
+                let division = alert(a/b);
+            }
+            function clr() {
+                let a = parseFloat(document.getElementById('a1').value = " ");
+                let b = parseFloat(document.getElementById('a2').value = " ");
+                let clr = document.getElementById('clr').reset;
+            }
+        </script>
+    </head>
+    <body>
+        <div class="calculator">
+        <h1>Sample Calculator</h1>
+        <table>
+            <tr>
+                <td>1st number</td>
+                <td><input id="a1" type="number" required></td>
+            </tr>
+            <tr>
+                <td>2nd number</td>
+                <td><input id="a2" type="number" required></td>
+            </tr>
+        </table>
+        <button id="sum" type="submit" name="submit" onclick="sum()">Sum</button>
+        <button id="subtract" type="submit" name="submit" onclick="subtract()">Subtract</button>
+        <button id="multiply" type="submit" name="submit" onclick="multiply()">Multiply</button>
+        <button id="division" type="submit" name="submit" onclick="division()">Division</button>
+        <button id="clr" type="reset" name="reset" onclick="clr()">Clear</button>
+    </div>
+
+
+    <!-- menu button-->
+     
+    <div class="opacity">
+      <button class="menu" type="submit" name="submit">Menu</button> 
+      <div class="pa">
+        <p class="para">
+            one new friend request <br>
+            John Doe posted on your wall<br>
+            Jane likes your post
+        </p>
+      </div> 
+    </div>
+        <h2>Hello Guys</h2>    
+    </body>
+</html>
