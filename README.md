@@ -1,9 +1,9 @@
 # Html_css_calculator_web-based
-Project Description: Simple Web-Based Calculator
-Project Overview:
+## Project Description: Simple Web-Based Calculator
+### Project Overview:
 This project is a web-based calculator designed using HTML, CSS, and JavaScript. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division. The calculator is styled for a visually appealing user interface and provides interactive functionality for a seamless user experience.
 
-Features:
+### Features:
 User-Friendly Interface:
 
 A well-designed header titled "Sample Calculator".
@@ -16,15 +16,12 @@ Clear Button:
 
 A dedicated Clear button to reset the input fields.
 Menu Button:
-
 A hoverable menu button with a dropdown tooltip displaying sample notifications (e.g., friend requests, post updates).
 Responsive Styling:
-
 Stylish orange buttons with hover effects.
 A bold red background for the calculator, enhancing the overall design.
 Technical Details:
-HTML:
-
+1) HTML:
 Provides the structure of the calculator, including:
 Input fields for user entries.
 Buttons for operations and clearing input fields.
@@ -34,8 +31,8 @@ Key Components:
 <input> tags: For user input.
 <button> tags: For operation triggers.
 Event Handlers: Inline onclick attributes to trigger JavaScript functions.
-CSS:
 
+2) CSS:
 Adds styling and visual appeal to the calculator.
 Features include:
 Red background for the calculator.
@@ -46,8 +43,8 @@ Key Styling Highlights:
 Buttons are styled for usability and aesthetics.
 Table layout for aligning input fields and labels.
 Hover effects for interactivity.
-JavaScript:
 
+3) JavaScript:
 Provides functionality to perform arithmetic operations and handle user interactions.
 Functions include:
 sum(): Adds two numbers.
@@ -55,9 +52,9 @@ subtract(): Subtracts the second number from the first.
 multiply(): Multiplies two numbers.
 division(): Divides the first number by the second.
 clr(): Clears the input fields.
-How It Works:
-User Interaction:
 
+### How It Works:
+#### User Interaction:
 The user enters two numbers into the input fields.
 Clicking one of the operation buttons (Sum, Subtract, Multiply, Division) triggers the respective JavaScript function.
 Result Display:
